@@ -8,9 +8,9 @@
         -o fdct2d_wrapper`python3-config --extension-suffix`
 */
 
-#include "fdct_wrapping.hpp"
-#include "fdct_wrapping_inc.hpp"
-#include "fdct_wrapping_inline.hpp"
+#include "/home/posmae/vsmalves/opt/CurveLab-2.1.3/fdct_wrapping_cpp/src/fdct_wrapping.hpp"
+#include "/home/posmae/vsmalves/opt/CurveLab-2.1.3/fdct_wrapping_cpp/src/fdct_wrapping_inc.hpp"
+#include "/home/posmae/vsmalves/opt/CurveLab-2.1.3/fdct_wrapping_cpp/src/fdct_wrapping_inline.hpp"
 #include <iostream>
 #include <pybind11/complex.h>
 #include <pybind11/numpy.h>
